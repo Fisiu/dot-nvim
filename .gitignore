@@ -1,0 +1,12 @@
+# github/gitignore/Global/Vim.gitignore
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# don't checkin plugged dir, it's managed by vim-plug
+autoload
+plugged
+
