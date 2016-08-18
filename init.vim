@@ -69,6 +69,7 @@ Plug 'honza/vim-snippets'
 
 "" Color
 Plug 'tomasr/molokai'
+Plug 'w0ng/vim-hybrid'
 
 "" Custom bundles
 "" Python Bundle
@@ -155,7 +156,10 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-  colorscheme molokai
+  "colorscheme molokai
+  set background=dark
+  let g:hybrid_custom_term_colors = 1
+  colorscheme hybrid
 endif
 
 set mousemodel=popup
