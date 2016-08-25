@@ -162,6 +162,7 @@ if !exists('g:not_finish_vimplug')
   colorscheme hybrid
 endif
 
+set mouse=v
 set mousemodel=popup
 set t_Co=256
 set guioptions=egmrti
